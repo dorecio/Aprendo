@@ -1,0 +1,86 @@
+[
+{
+    "scheduleDate": "10032023",
+    "scheduleHour": "4",
+    "teacher": "Ruben Alvarado",
+    "busy": 1
+},
+{
+    "scheduleDate": "10032023",
+    "scheduleHour": "5",
+    "teacher": "Ruben Alvarado",
+    "busy": 1
+},
+{
+    "scheduleDate": "10032023",
+    "scheduleHour": "6",
+    "teacher": "Ruben Alvarado",
+    "busy": 1
+},
+{
+    "scheduleDate": "10032023",
+    "scheduleHour": "7",
+    "teacher": "Ruben Alvarado",
+    "busy": 1
+},
+{
+    "scheduleDate": "10032023",
+    "scheduleHour": "4",
+    "teacher": "Andrea López",
+    "busy": 1
+},
+{
+    "scheduleDate": "10032023",
+    "scheduleHour": "5",
+    "teacher": "Andrea López",
+    "busy": 1
+},
+{
+    "scheduleDate": "10032023",
+    "scheduleHour": "6",
+    "teacher": "Andrea López",
+    "busy": 1
+},
+{
+    "scheduleDate": "10032023",
+    "scheduleHour": "7",
+    "teacher": "Andrea López",
+    "busy": 1
+},
+{
+    "scheduleDate": "10032023",
+    "scheduleHour": "4",
+    "teacher": "Julio Ruiz",
+    "busy": 1
+},
+{
+    "scheduleDate": "10032023",
+    "scheduleHour": "5",
+    "teacher": "Julio Ruiz",
+    "busy": 1
+},
+{
+    "scheduleDate": "10032023",
+    "scheduleHour": "6",
+    "teacher": "Julio Ruiz",
+    "busy": 1
+},
+{
+    "scheduleDate": "10032023",
+    "scheduleHour": "7",
+    "teacher": "Julio Ruiz",
+    "busy": 1
+},
+{
+    "scheduleDate": "10032023",
+    "scheduleHour": "4",
+    "teacher": "Denisse Cuevas",
+    "busy": 1
+},
+{
+    "scheduleDate": "10032023",
+    "scheduleHour": "5",
+    "teacher": "Denisse Cuevas",
+    "busy": 1
+}
+]
