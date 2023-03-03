@@ -1,5 +1,6 @@
 {
   "name": "aprendo",
+
   "version": "1.0.0",
   "description": "Asesoría educativa",
   "main": "server/server.js",
@@ -18,5 +19,6 @@
   },
   "dependencies": {
     "dayjs": "^1.11.7"
+
   }
 }
