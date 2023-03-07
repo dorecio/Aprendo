@@ -1,27 +1,37 @@
 const { Schema, model } = require('mongoose');
-//const dateFormat = require('../utils/dateFormat');
-//const dayFormat = require('../utils/dayFormat');
 
-const scheduleSchema = new Schema({
-    scheduleDate: {
-        type: Date,
-        required: true,
-     //   get: (timestamp) => dateFormat(timestamp),
-    },
-    scheduleHour: {
-        type: Number,
-        required: true,
-    },
-    teacher: {
-        type: String,
-        required:true,
-    },
-    busy: {
-        type: Boolean,
-        default:0  
+const scheduleSchema = new Schema(
+    {
+        scheduleDate: {
+            type: Date,
+            required: true,
+        },
+        scheduleHour: {
+            type: Number,
+            required: true,
+        },
+        teacher: {
+            type: String,
+            required: true,
+        },
+        teacherId: {
+            type: Schema.Types.ObjectId,
+            ref: "User"
+        },
+        themeId: {
+            type: Schema.Types.ObjectId,
+            ref: "Theme"
+        },
+        student: {
+            type: String,
+            default: null
+        },
+        studentId: {
+            type: Schema.Types.ObjectId,
+            ref: "User"
+        }
     }
-    
-});
+);
 
 const Schedule = model('Schedule', scheduleSchema);
 
